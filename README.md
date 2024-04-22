@@ -1,7 +1,10 @@
-# Getting Started with Create React App
+# Altschool Second Semester GitHub Portfolio Exam Project
+
+This is a solution to the second semester GitHub Portfolio exam project given by AltSchool Africa School of Software Engineering tutors.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Hosted with netlify [alts-github-repos](https://alts-github-repos.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
