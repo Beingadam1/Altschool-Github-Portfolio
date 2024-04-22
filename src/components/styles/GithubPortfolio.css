@@ -1,0 +1,132 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-container {
+  width: 250px;
+  height: 25px;
+  outline: none;
+  border: none;
+  margin-bottom: 1.3rem;
+}
+
+#search {
+  outline: none;
+  border: none;
+  color: #fff;
+  width: inherit;
+  height: inherit; 
+  background-color: inherit;
+  border-bottom: 1.5px solid #fff;
+  transition: all 0.5s ease-out;
+}
+
+#search:focus {
+  border-color: #e61c5d;
+
+}
+
+.no-results {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.repo-container {
+  list-style: none;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.repo-card {
+  border: 1px solid #fff;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 2.2rem 1rem;
+  transition: all 0.5s ease-out;
+}
+
+.repo-card:hover {
+  border-color: #e61c5d;
+}
+
+.repo-link {
+  padding: inherit;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pagination {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding: 0;
+}
+
+.pagination-button {
+  border: none;
+  outline: none;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+  background-color: inherit;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.pagination-button:hover {
+  background-color: #e61c5d;
+}
+
+.active {
+  border-bottom: #e61c5d solid 1.5px;
+  width: 22px;
+}
+
+.active:hover {
+border: none;
+}
+
+.error-button {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  border: 1px #fff solid;
+  padding: 0.5rem;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: all 0.5s ease-out;
+}
+
+.error-button:hover {
+border-color: #e61c5d;
+}
+
+.notfound-button {
+  border: none;
+  outline: none;
+  color: #fff;
+  border: 1px #fff solid;
+  padding: 0.85rem 0.6rem 0.5rem;
+  background-color: inherit;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+.notfound-button:hover {
+border-color: #e61c5d;
+}
+
+/* </p> on errorboundary */
+.paragraph {
+  margin-bottom: 1.rem;
+}
